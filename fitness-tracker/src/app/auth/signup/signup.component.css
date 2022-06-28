@@ -1,0 +1,20 @@
+#container{
+  display: flex;
+}
+
+.child{
+  width: 200px;
+  height: 200px;
+}
+
+#child1{
+  background-color: crimson;
+}
+
+#child2{
+  background-color: chartreuse;
+}
+
+#child3{
+  background-color: blue;
+}
