@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material.module';
 import { AppRoutingModule } from './app-routing.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { LoginComponent } from './auth/login/login.component';
@@ -29,6 +30,7 @@ import { CurrenttrainingComponent } from './training/current-training/current-tr
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
+    FlexLayoutModule,
     BrowserAnimationsModule,
   ],
   providers: [],
